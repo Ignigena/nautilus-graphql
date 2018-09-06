@@ -1,0 +1,22 @@
+{
+  "name": "nautilus-graphql",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest && eslint ."
+  },
+  "author": "Albert Martin <albert@imor.tl>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "dependencies": {
+    "express-graphql": "^0.6.12",
+    "graphql-tools": "^3.1.1"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage"
+  }
+}
